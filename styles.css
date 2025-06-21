@@ -1,1 +1,33 @@
-/* your code */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+thead {
+  background-color: #dfe6e9;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
